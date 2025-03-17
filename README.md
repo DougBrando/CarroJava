@@ -27,31 +27,28 @@ Este é um projeto simples em Java que simula o comportamento básico de um carr
    ```bash
    cd CarroJava
 
-```markdown
 3. Compile o código:
    ```bash
    javac src/br/senai/lab365/futurodev/carros/main/Main.java
 
-```markdown
 4. Execute o programa:
    ```bash
    java -cp src br.senai.lab365.futurodev.carros.main.Main
 
 
 ## Exemplo de Saída
-```text
-O carro está ligado? false
-Carro foi ligado
-O carro está ligado? true
-Carro foi desligado
-O carro está ligado? false
-Carro foi ligado
-Carro acelerando... Velocidade atual: 1
-Carro acelerando... Velocidade atual: 2
-Mais aceleração
-Carro acelerando... Velocidade atual: 3
-Biiiii
-
+    ```text
+    O carro está ligado? false
+    Carro foi ligado
+    O carro está ligado? true
+    Carro foi desligado
+    O carro está ligado? false
+    Carro foi ligado
+    Carro acelerando... Velocidade atual: 1
+    Carro acelerando... Velocidade atual: 2
+    Mais aceleração
+    Carro acelerando... Velocidade atual: 3
+    Biiiii
 
 ## Observações
 - O projeto usa valores padrão para a velocidade máxima (100) e som da buzina ("Bip"), que podem ser alterados via setters.
